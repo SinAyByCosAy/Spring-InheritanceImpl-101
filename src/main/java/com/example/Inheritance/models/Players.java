@@ -1,7 +1,6 @@
 package com.example.Inheritance.models;
 
 import jakarta.persistence.*;
-import org.hibernate.id.uuid.UuidGenerator;
 
 import java.util.UUID;
 
