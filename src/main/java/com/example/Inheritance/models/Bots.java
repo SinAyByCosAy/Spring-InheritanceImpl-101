@@ -1,4 +1,9 @@
 package com.example.Inheritance.models;
 
-public class Bots {
+import jakarta.persistence.Entity;
+
+@Entity
+public class Bots extends Players {
+    private int rank;
+
 }
